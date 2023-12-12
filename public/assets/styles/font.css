@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Metrophobic";
+    src: url("/assets/fonts/Metrophobic-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Permanent Marker";
+    src: url("/assets/fonts/Permanent-Marker-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
