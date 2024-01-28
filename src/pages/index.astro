@@ -1,14 +1,28 @@
 ---
+import SectionBox from '../components/SectionBox.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/index.css';
 ---
 
 <BaseLayout title="Cat-a-clysm">
-    <div class="avatar">aaa</div>
-	<h1>Cat-a-clysm</h1>
-    <p>Socials go here</p>
-    <h1>Bio</h1>
-    <p>Short bio here</p>
-    <h1>Projects</h1>
-    <ol>Celeste Hearts</ol>
-    <h1>Blog / Ramblings</h1>
+    <div class="left">
+        <SectionBox>
+            <h1>Cat-a-clysm</h1>
+            <p>Socials go here</p>
+        </SectionBox>
+    </div>
+    <div class="right">
+            <SectionBox>
+            <h1>Bio</h1>
+            <p>Short bio here</p>
+        </SectionBox>
+        <SectionBox>
+            <h1>Projects</h1>
+            <ol>Celeste Hearts</ol>
+        </SectionBox>
+        <SectionBox>
+            <h1>Blog / Ramblings</h1>
+            <p>To be done</p>
+        </SectionBox>
+    </div>
 </BaseLayout>

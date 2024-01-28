@@ -1,16 +1,12 @@
 @import url("/assets/styles/font.css");
 
-html,
-body {
+html, body {
 	margin: 0;
 	padding: 0;
-    display: flex;
-    flex-flow: column wrap;
 }
 
 body {
 	font-family: "Metrophobic";
-	font-size: 24px;
 	background-color: #363636;
 	color: black;
 }
@@ -23,9 +19,7 @@ h1 {
 	font-size: 2em;
 }
 
-.avatar {
-	border: solid 1em black;
-	border-radius: 50%;
-	background-color:black;
-	display: flex;
+main {
+	max-width: 1280px;
+	margin: auto;
 }

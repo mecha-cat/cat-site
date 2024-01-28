@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import Header from "../components/Header.astro";
 
 const {
 	title
@@ -11,10 +12,12 @@ const {
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{title}</title>
 	</head>
 	<body>
-		<slot />
+		<Header />
+		<main>
+			<slot />
+		</main>
 	</body>
 </html>
