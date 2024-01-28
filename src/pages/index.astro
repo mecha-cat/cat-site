@@ -1,14 +1,27 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/index.css';
 ---
 
 <BaseLayout title="Cat-a-clysm">
-    <div class="avatar">aaa</div>
-	<h1>Cat-a-clysm</h1>
-    <p>Socials go here</p>
-    <h1>Bio</h1>
-    <p>Short bio here</p>
-    <h1>Projects</h1>
-    <ol>Celeste Hearts</ol>
-    <h1>Blog / Ramblings</h1>
+    <div class="left">
+        <section>
+            <h1>Cat-a-clysm</h1>
+            <p>Socials go here</p>
+        </section>
+    </div>
+    <div class="right">
+            <section>
+            <h1>Bio</h1>
+            <p>Short bio here</p>
+        </section>
+        <section>
+            <h1>Projects</h1>
+            <ol>Celeste Hearts</ol>
+        </section>
+        <section>
+            <h1>Blog / Ramblings</h1>
+            <p>To be done</p>
+        </section>
+    </div>
 </BaseLayout>
