@@ -1,0 +1,8 @@
+.box {
+	background-color: #ABABAB;
+	border-radius: 32px;
+}
+
+.box h1, h2, h3 {
+	text-align: center;
+}

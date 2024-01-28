@@ -37,12 +37,3 @@ a:link, a:visited {
 	margin-right: auto;
 	max-width: 50%;
 }
-
-.box {
-	background-color: #ABABAB;
-	border-radius: 15%;
-}
-
-.box h1, h2, h3 {
-	text-align: center;
-}
