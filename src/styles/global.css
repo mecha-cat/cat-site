@@ -24,13 +24,6 @@ a:link, a:visited {
 	color: #1A1A33
 }
 
-.banner img {
-	max-width: 100%;
-	height: auto;
-    background-size: cover;
-	position: relative
-}
-
 .avatar img {
 	border: solid 1em black;
 	border-radius: 50%;

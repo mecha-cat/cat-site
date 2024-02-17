@@ -1,35 +1,34 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Box from '../components/Box.astro';
 import '../styles/index.css';
 ---
 
 
-<BaseLayout title="Cat-a-clysm">
-    <div class="banner"><img src="/assets/images/banner.webp" /></div>
-    <div class="avatar"><img src="/assets/images/avatar.webp" /></div>
-    <div class="box">
+<BaseLayout title="Cat-a-clysm">import Header from '../components/Header.astro';
+    <Box>
 	    <h1>Cat-a-clysm</h1>
             <ul>
                 <li>Revolt</li>
                 <li><a href="https://github.com/mecha-cat">GitHub</a></li>
                 <li>Discord</li>
             </ul>
-    </div>
-    <div class="box">
+        </Box>
+    <Box>
         <h1>About Me</h1>
             <p>Short bio here</p>
-    </div>
-    <div class="box">
+    </Box>
+    <Box>
         <h1>Projects</h1>
             <ul>
                 <oli>Celeste Hearts</li> 
             </ul>
-    </div>
-    <div class="box">
+        </Box>
+    <Box>
         <h1>Blog / Ramblings</h1>
             <ul>
                 <li>Pics from My Hometown</li>
                 <li>Neofetch with Thigh Highs</li>
             </ul>
-    </div>
+        </Box>
 </BaseLayout>

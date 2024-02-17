@@ -1,0 +1,9 @@
+section {
+	padding: 8px 32px;
+	background-color: #ABABAB;
+	border-radius: 32px;
+}
+
+section h1, h2, h3 {
+	text-align: center;
+}
